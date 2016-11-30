@@ -7,6 +7,7 @@ PHONY_TARGETS += clean-pip
 
 PYTHON_PACKAGES :=
 PYTHON_PACKAGES += jupyter
+PYTHON_PACKAGES += matplotlib
 
 install-pip:
 	pip install -–upgrade $(PYTHON_PACKAGES)
