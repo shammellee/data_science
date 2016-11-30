@@ -16,4 +16,4 @@ notebook:
 	jupyter notebook
 
 clean-pip:
-	pip uninstall -y $(PYTHON_PACKAGES)
+	pip uninstall -y $$(pip freeze)
